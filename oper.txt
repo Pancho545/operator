@@ -1,0 +1,13 @@
+opponentCard.Points > playerCard.Points ? PlayerWins(opponent, opponentCard, player, playerCard)
+        : PlayerWins(player, playerCard, opponent, opponentCard);
+				
+				
+if (opponentCard.Points > playerCard.Points)
+    {
+        PlayerWins(opponent, opponentCard, player, playerCard);
+    }
+
+else
+    {
+        PlayerWins(player, playerCard, opponent, opponentCard);
+    }    
